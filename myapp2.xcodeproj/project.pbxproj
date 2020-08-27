@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EBBA24292410DDBB00B404E2 /* myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBA24292410DDBB00B404E2 /* myapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBA242C2410DDBB00B404E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBBA242E2410DDBB00B404E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EBBA24302410DDBB00B404E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		EBBA242A2410DDBB00B404E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBBA24292410DDBB00B404E2 /* myapp.app */,
+				EBBA24292410DDBB00B404E2 /* myapp2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = myapp;
 			productName = myapp;
-			productReference = EBBA24292410DDBB00B404E2 /* myapp.app */;
+			productReference = EBBA24292410DDBB00B404E2 /* myapp2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -291,7 +291,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.myapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = myapp2;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.myapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = myapp2;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
