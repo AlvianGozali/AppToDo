@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class Activity{
+    
+    var title: String
+    var startTime: String
+    var endTime: String
+    
+    init(title: String, startTime: String, endTime: String){
+        self.title = title
+        self.startTime = startTime
+        self.endTime = endTime
+    }
+    
+}
+
